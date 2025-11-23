@@ -1,0 +1,14 @@
+[package]
+name = "stability-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+image = "0.24.6"
+num = "0.4.0"
+num_cpus = "1.15.0"
+rayon = "1.7.0"
+chrono = "0.4"
+
+[target.aarch64-unknown-linux-gnu]
+linker = "aarch64-linux-gnu-gcc"
